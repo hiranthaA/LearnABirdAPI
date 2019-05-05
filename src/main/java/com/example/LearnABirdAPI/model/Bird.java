@@ -1,10 +1,6 @@
 package com.example.LearnABirdAPI.model;
 
-import com.sun.javafx.beans.IDProperty;
-
 import javax.persistence.*;
-import java.lang.annotation.Documented;
-import java.sql.Blob;
 
 @Entity
 public class Bird {
