@@ -30,4 +30,9 @@ public class BirdController {
     public void initData(){
         birdService.initData();
     }
+
+    @RequestMapping(value = "/test", method = RequestMethod.GET)
+    public String testapi(){
+        return "test ok";
+    }
 }
